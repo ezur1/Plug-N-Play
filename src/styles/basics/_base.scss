@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+    font-family: 'Muli', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    &:visited{
+        color: black;
+    }
+    &:link{
+        color: black;
+
+    }
+
+}
+p{
+    margin: 0;
+}
+
+h1,h2,h3{
+    margin: 0;
+}
+
